@@ -106,7 +106,7 @@ export default class Page extends Component {
                   <Form.Group>
                     <Form.Label>Network</Form.Label>
                     <Form.Control as="select" name="network" id="network" onChange={this.handleChange}>
-                    <option value="">Select Network</option>
+                      <option value="" disabled selected>Select Network</option>
                       <option value="Rinkeby">Rinkeby</option>
                       <option value="Kovan">Kovan</option>
                       <option value="Mainnet">Mainnet</option>
